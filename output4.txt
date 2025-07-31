@@ -1,0 +1,77 @@
+Program is compliant with the lookup table.
+Program started.
+Line 1: ^_^ keloğlan 1sayi _ 20 ^_^  // Hata: Değişken adı sayı ile başlayamaz
+  Next token: 48, Lexeme: ^_^
+  Next token: 22, Lexeme: keloğlan
+  Next token: 99, Lexeme: 1sayi
+  Next token: 14, Lexeme: _
+  Next token: 50, Lexeme: 20, Value: 20
+  Next token: 48, Lexeme: ^_^
+  Next token: 99, Lexeme: //
+  Next token: 99, Lexeme: Hata:
+  Next token: 51, Lexeme: Değişken
+  Next token: 51, Lexeme: adı
+  Next token: 51, Lexeme: sayı
+  Next token: 51, Lexeme: ile
+  Next token: 51, Lexeme: başlayamaz
+----
+Line 2: ^_^ tospik ) "Merhaba" ^_^ // Hata: 'tospik' fonksiyonunun parantezi eksik
+  Next token: 48, Lexeme: ^_^
+  Next token: 11, Lexeme: tospik
+  Next token: 40, Lexeme: )
+  Next token: 49, Lexeme: "Merhaba", Value: Merhaba
+  Next token: 48, Lexeme: ^_^
+  Next token: 99, Lexeme: //
+  Next token: 99, Lexeme: Hata:
+  Next token: 99, Lexeme: 'tospik'
+  Next token: 51, Lexeme: fonksiyonunun
+  Next token: 51, Lexeme: parantezi
+  Next token: 51, Lexeme: eksik
+----
+Line 3: ^_^ keloğlan sonuc _ 5 $!$ 10 ^_^ // Hata: '$!$' tanınmayan bir operatör
+  Next token: 48, Lexeme: ^_^
+  Next token: 22, Lexeme: keloğlan
+  Next token: 51, Lexeme: sonuc
+  Next token: 14, Lexeme: _
+  Next token: 50, Lexeme: 5, Value: 5
+  Next token: 99, Lexeme: $!$
+  Next token: 50, Lexeme: 10, Value: 10
+  Next token: 48, Lexeme: ^_^
+  Next token: 99, Lexeme: //
+  Next token: 99, Lexeme: Hata:
+  Next token: 99, Lexeme: '$!$'
+  Next token: 51, Lexeme: tanınmayan
+  Next token: 51, Lexeme: bir
+  Next token: 51, Lexeme: operatör
+----
+Line 4: ^_^ döfenşimos ) deger -: 10 ( } ^_^
+  Next token: 48, Lexeme: ^_^
+  Next token: 1, Lexeme: döfenşimos
+  Next token: 40, Lexeme: )
+  Next token: 51, Lexeme: deger
+  Next token: 27, Lexeme: -:
+  Next token: 50, Lexeme: 10, Value: 10
+  Next token: 41, Lexeme: (
+  Next token: 42, Lexeme: }
+  Next token: 48, Lexeme: ^_^
+----
+Line 5: ^_^ tospik ) "Test" ( ^_^
+  Next token: 48, Lexeme: ^_^
+  Next token: 11, Lexeme: tospik
+  Next token: 40, Lexeme: )
+  Next token: 49, Lexeme: "Test", Value: Test
+  Next token: 41, Lexeme: (
+  Next token: 48, Lexeme: ^_^
+----
+Line 6: ^_^ tontiş ^_^
+  Next token: 48, Lexeme: ^_^
+  Next token: 8, Lexeme: tontiş
+  Next token: 48, Lexeme: ^_^
+----
+Line 7: } ^_^
+  Next token: 42, Lexeme: }
+  Next token: 48, Lexeme: ^_^
+----
+
+--- SYNTACTIC & SEMANTIC ANALYSIS / INTERPRETATION PHASE ---
+❌ Program parsing or execution failed for input4.txt

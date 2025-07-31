@@ -1,0 +1,88 @@
+Program is compliant with the lookup table.
+Program started.
+Line 1: ^_^ keloğlan sayi _ 25 ^_^
+  Next token: 48, Lexeme: ^_^
+  Next token: 22, Lexeme: keloğlan
+  Next token: 51, Lexeme: sayi
+  Next token: 14, Lexeme: _
+  Next token: 50, Lexeme: 25, Value: 25
+  Next token: 48, Lexeme: ^_^
+----
+Line 2: ^_^ tospik ( "Başlangıç değeri: " ) ^_^
+  Next token: 48, Lexeme: ^_^
+  Next token: 11, Lexeme: tospik
+  Next token: 41, Lexeme: (
+  Next token: 49, Lexeme: "Başlangıç değeri: ", Value: Başlangıç değeri: 
+  Next token: 40, Lexeme: )
+  Next token: 48, Lexeme: ^_^
+----
+Line 3: ^_^ tospik ( sayi ) ^_^
+  Next token: 48, Lexeme: ^_^
+  Next token: 11, Lexeme: tospik
+  Next token: 41, Lexeme: (
+  Next token: 51, Lexeme: sayi
+  Next token: 40, Lexeme: )
+  Next token: 48, Lexeme: ^_^
+----
+Line 4: ^_^ sayi ._. 10 ^_^
+  Next token: 48, Lexeme: ^_^
+  Next token: 51, Lexeme: sayi
+  Next token: 15, Lexeme: ._.
+  Next token: 50, Lexeme: 10, Value: 10
+  Next token: 48, Lexeme: ^_^
+----
+Line 5: ^_^ tospik ( "10 eklendi, yeni değer: " ) ^_^
+  Next token: 48, Lexeme: ^_^
+  Next token: 11, Lexeme: tospik
+  Next token: 41, Lexeme: (
+  Next token: 49, Lexeme: "10 eklendi, yeni değer: ", Value: 10 eklendi, yeni değer: 
+  Next token: 40, Lexeme: )
+  Next token: 48, Lexeme: ^_^
+----
+Line 6: ^_^ tospik ( sayi ) ^_^
+  Next token: 48, Lexeme: ^_^
+  Next token: 11, Lexeme: tospik
+  Next token: 41, Lexeme: (
+  Next token: 51, Lexeme: sayi
+  Next token: 40, Lexeme: )
+  Next token: 48, Lexeme: ^_^
+----
+Line 7: ^_^ döfenşimos ( sayi :-_ 35 ) { ^_^
+  Next token: 48, Lexeme: ^_^
+  Next token: 1, Lexeme: döfenşimos
+  Next token: 41, Lexeme: (
+  Next token: 51, Lexeme: sayi
+  Next token: 30, Lexeme: :-_
+  Next token: 50, Lexeme: 35, Value: 35
+  Next token: 40, Lexeme: )
+  Next token: 43, Lexeme: {
+  Next token: 48, Lexeme: ^_^
+----
+Line 8: ^_^ tospik ( "Sayı 35 veya daha büyük." ) ^_^
+  Next token: 48, Lexeme: ^_^
+  Next token: 11, Lexeme: tospik
+  Next token: 41, Lexeme: (
+  Next token: 49, Lexeme: "Sayı 35 veya daha büyük.", Value: Sayı 35 veya daha büyük.
+  Next token: 40, Lexeme: )
+  Next token: 48, Lexeme: ^_^
+----
+Line 9: ^_^ tontiş ^_^
+  Next token: 48, Lexeme: ^_^
+  Next token: 8, Lexeme: tontiş
+  Next token: 48, Lexeme: ^_^
+----
+Line 10: } ^_^
+  Next token: 42, Lexeme: }
+  Next token: 48, Lexeme: ^_^
+----
+Line 11: ^_^ tospik ( "Programın sonuna gelindi." ) ^_^
+  Next token: 48, Lexeme: ^_^
+  Next token: 11, Lexeme: tospik
+  Next token: 41, Lexeme: (
+  Next token: 49, Lexeme: "Programın sonuna gelindi.", Value: Programın sonuna gelindi.
+  Next token: 40, Lexeme: )
+  Next token: 48, Lexeme: ^_^
+----
+
+--- SYNTACTIC & SEMANTIC ANALYSIS / INTERPRETATION PHASE ---
+❌ Program parsing or execution failed for input1.txt

@@ -1,0 +1,7 @@
+^_^ keloğlan 1sayi _ 20 ^_^  // Hata: Değişken adı sayı ile başlayamaz
+^_^ tospik ) "Merhaba" ^_^ // Hata: 'tospik' fonksiyonunun parantezi eksik
+^_^ keloğlan sonuc _ 5 $!$ 10 ^_^ // Hata: '$!$' tanınmayan bir operatör
+^_^ döfenşimos ) deger -: 10 ( } ^_^
+^_^ tospik ) "Test" ( ^_^
+^_^ tontiş ^_^
+} ^_^

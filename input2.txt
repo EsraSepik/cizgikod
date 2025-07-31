@@ -1,0 +1,8 @@
+^_^ keloğlan uzunluk _ 10 ^_^
+^_^ keloğlan genişlik _ 5 ^_^
+^_^ keloğlan alan _ 0 ^_^
+
+^_^ alan _ uzunluk ._. genişlik ^_^
+
+^_^ tospik ) "Dikdörtgenin alanı: " ._. alan ( ^_^
+^_^ tontiş ^_^

@@ -1,0 +1,41 @@
+Program is compliant with the lookup table.
+Program started.
+Line 1: ^_^ keloğlan yaş _ 10 ^_^
+  Next token: 48, Lexeme: ^_^
+  Next token: 22, Lexeme: keloğlan
+  Next token: 51, Lexeme: yaş
+  Next token: 14, Lexeme: _
+  Next token: 50, Lexeme: 10, Value: 10
+  Next token: 48, Lexeme: ^_^
+----
+Line 2: ^_^ tospik ) yaş ( ^_^
+  Next token: 48, Lexeme: ^_^
+  Next token: 11, Lexeme: tospik
+  Next token: 40, Lexeme: )
+  Next token: 51, Lexeme: yaş
+  Next token: 41, Lexeme: (
+  Next token: 48, Lexeme: ^_^
+----
+Line 3: ^_^ yaş _ 25 ^_^
+  Next token: 48, Lexeme: ^_^
+  Next token: 51, Lexeme: yaş
+  Next token: 14, Lexeme: _
+  Next token: 50, Lexeme: 25, Value: 25
+  Next token: 48, Lexeme: ^_^
+----
+Line 4: ^_^ tospik ) yaş ( ^_^
+  Next token: 48, Lexeme: ^_^
+  Next token: 11, Lexeme: tospik
+  Next token: 40, Lexeme: )
+  Next token: 51, Lexeme: yaş
+  Next token: 41, Lexeme: (
+  Next token: 48, Lexeme: ^_^
+----
+Line 5: ^_^ tontiş ^_^
+  Next token: 48, Lexeme: ^_^
+  Next token: 8, Lexeme: tontiş
+  Next token: 48, Lexeme: ^_^
+----
+
+--- SYNTACTIC & SEMANTIC ANALYSIS / INTERPRETATION PHASE ---
+✔ Program parsed and executed successfully for input3.txt

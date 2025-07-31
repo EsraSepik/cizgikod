@@ -1,0 +1,11 @@
+^_^ keloğlan sayi _ 25 ^_^
+^_^ tospik ( "Başlangıç değeri: " ) ^_^
+^_^ tospik ( sayi ) ^_^
+^_^ sayi ._. 10 ^_^
+^_^ tospik ( "10 eklendi, yeni değer: " ) ^_^
+^_^ tospik ( sayi ) ^_^
+^_^ döfenşimos ( sayi :-_ 35 ) { ^_^
+^_^ tospik ( "Sayı 35 veya daha büyük." ) ^_^
+^_^ tontiş ^_^
+} ^_^
+^_^ tospik ( "Programın sonuna gelindi." ) ^_^
